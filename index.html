@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Hssabi — حسابي</title>
+  <meta name="description" content="Calculateur de salaire net, crédit, vignette et TVA pour le Maroc. حاسبة الأجر الصافي والقرض والفينيت وTVA للمغرب.">
+  <meta name="theme-color" content="#141f6e">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <div class="brand"><b id="appName">Hssabi</b><span id="tagline"></span></div>
+      <div class="top-actions">
+        <button class="pill install" id="installBtn" hidden></button>
+        <button class="pill" id="langBtn" type="button"></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap" id="view" aria-live="polite"></main>
+  <footer><span id="footTxt"></span> · <a href="privacy.html" id="privLink"></a></footer>
+
+  <nav class="tabs" aria-label="Menu">
+    <div class="wrap" role="tablist" id="tabs"></div>
+  </nav>
+
+  <script src="calc.js"></script>
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

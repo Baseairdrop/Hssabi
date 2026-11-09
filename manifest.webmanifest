@@ -1,0 +1,17 @@
+{
+  "name": "Hssabi — حسابي",
+  "short_name": "Hssabi",
+  "description": "Salaire net, crédit, vignette et TVA au Maroc — الأجر الصافي والقرض والفينيت وTVA",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#141f6e",
+  "theme_color": "#141f6e",
+  "lang": "fr",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
